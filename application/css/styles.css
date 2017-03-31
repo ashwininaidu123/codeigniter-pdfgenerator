@@ -1,0 +1,120 @@
+body {
+    background: #C1CCD4!important;
+    font-family: 'Open Sans', verdana, arial !important;
+    font-weight: 300;
+ 
+}
+#container{
+    width:960px;
+    margin: 50px auto;
+}
+
+#fugo{
+    float:right;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Open Sans', verdana, arial !important;
+}
+h4{
+    float: left;
+    padding: 0px 80px;
+    font-family: 'Open Sans', verdana, arial !important;
+}
+
+hr{
+    border: 0;
+    border-bottom: 1.5px solid #ccc;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 17px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 20px; 
+    border: none;
+    box-shadow: 0 0 5px;
+}
+
+
+input#submit:hover{
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+
+.form-control {
+    display: inline-block;
+    width: 90% !important;
+    height: auto;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: #000;
+    background-color: #FFF!important;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px;
+    -moz-transition: all .2s linear 0, box-shadow .2s linear 0;
+    -o-transition: all .2s linear 0, box-shadow .2s linear 0;
+    transition: all .2s linear 0, box-shadow .2s linear 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+ }
+.form-group {
+    margin-right: -15px;
+    margin-left: -15px;  
+    margin-bottom: 15px !important;  
+}
+.text-right {
+    text-align: right;
+}
+.input-icon{
+    position: relative;
+}
+label.col-sm-4.text-right {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', verdana, arial;
+}
+label.col-sm-1.text-right {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', verdana, arial;
+}
+.panel-body
+{
+    margin-top: 80px;
+    background: #ffffff !important;
+}
+.navbar-center {
+    color: #bebebe;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    text-align: center;
+    margin-top: 12px;
+    left: 0;
+    top: 6px;
+}
+button.add_field_button.btn.btn-login.error {
+       margin: 10px;
+}
+input#vanityno_amt,input#virtualno_amt {
+    width: 79%!important;
+}
+.text-center {
+    text-align: center;
+}
+input#submit {
+    width: 12%;
+    padding: 11px;
+    font-weight: bold;
+    border: none;
+    margin: 15px;
+}
